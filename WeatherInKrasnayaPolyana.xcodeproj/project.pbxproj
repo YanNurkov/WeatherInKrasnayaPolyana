@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C138BD328D9B717001AD3DC /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C138BD228D9B717001AD3DC /* WeatherService.swift */; };
+		2C138BD528D9B73C001AD3DC /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C138BD428D9B73C001AD3DC /* WeatherData.swift */; };
+		2C138BD728D9B753001AD3DC /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C138BD628D9B753001AD3DC /* WeatherModel.swift */; };
+		2C138BDA28D9B801001AD3DC /* StretchyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C138BD928D9B801001AD3DC /* StretchyHeader.swift */; };
+		2C138BDC28D9B8A4001AD3DC /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C138BDB28D9B8A4001AD3DC /* Colors.swift */; };
 		2C54433928D9AA4D004F1410 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54433828D9AA4D004F1410 /* AppDelegate.swift */; };
 		2C54433B28D9AA4D004F1410 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54433A28D9AA4D004F1410 /* SceneDelegate.swift */; };
 		2C54433D28D9AA4D004F1410 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54433C28D9AA4D004F1410 /* ViewController.swift */; };
-		2C54434028D9AA4D004F1410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C54433E28D9AA4D004F1410 /* Main.storyboard */; };
 		2C54434228D9AA4E004F1410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C54434128D9AA4E004F1410 /* Assets.xcassets */; };
-		2C54434528D9AA4E004F1410 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C54434328D9AA4E004F1410 /* LaunchScreen.storyboard */; };
+		C447EC50F54A1537AB2BF406 /* Pods_WeatherInKrasnayaPolyana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E184EAC54AED2FFE3EAE7A6D /* Pods_WeatherInKrasnayaPolyana.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C138BD228D9B717001AD3DC /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		2C138BD428D9B73C001AD3DC /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		2C138BD628D9B753001AD3DC /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		2C138BD928D9B801001AD3DC /* StretchyHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeader.swift; sourceTree = "<group>"; };
+		2C138BDB28D9B8A4001AD3DC /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		2C54433528D9AA4D004F1410 /* WeatherInKrasnayaPolyana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherInKrasnayaPolyana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C54433828D9AA4D004F1410 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C54433A28D9AA4D004F1410 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2C54433C28D9AA4D004F1410 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2C54433F28D9AA4D004F1410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C54434128D9AA4E004F1410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2C54434428D9AA4E004F1410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C54434628D9AA4E004F1410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87188B82E5DF75A700515AC5 /* Pods-WeatherInKrasnayaPolyana.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherInKrasnayaPolyana.release.xcconfig"; path = "Target Support Files/Pods-WeatherInKrasnayaPolyana/Pods-WeatherInKrasnayaPolyana.release.xcconfig"; sourceTree = "<group>"; };
+		E184EAC54AED2FFE3EAE7A6D /* Pods_WeatherInKrasnayaPolyana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherInKrasnayaPolyana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAE51EF3FC7FB8B4F38F652 /* Pods-WeatherInKrasnayaPolyana.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherInKrasnayaPolyana.debug.xcconfig"; path = "Target Support Files/Pods-WeatherInKrasnayaPolyana/Pods-WeatherInKrasnayaPolyana.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C447EC50F54A1537AB2BF406 /* Pods_WeatherInKrasnayaPolyana.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C138BD828D9B77F001AD3DC /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				2C138BD428D9B73C001AD3DC /* WeatherData.swift */,
+				2C138BD628D9B753001AD3DC /* WeatherModel.swift */,
+				2C138BD228D9B717001AD3DC /* WeatherService.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
 		2C54432C28D9AA4D004F1410 = {
 			isa = PBXGroup;
 			children = (
 				2C54433728D9AA4D004F1410 /* WeatherInKrasnayaPolyana */,
 				2C54433628D9AA4D004F1410 /* Products */,
+				C183DEF59DDFD470F67C40B5 /* Pods */,
+				C6222FB607F58DB47E6C0387 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +82,30 @@
 				2C54433828D9AA4D004F1410 /* AppDelegate.swift */,
 				2C54433A28D9AA4D004F1410 /* SceneDelegate.swift */,
 				2C54433C28D9AA4D004F1410 /* ViewController.swift */,
-				2C54433E28D9AA4D004F1410 /* Main.storyboard */,
+				2C138BD928D9B801001AD3DC /* StretchyHeader.swift */,
+				2C138BDB28D9B8A4001AD3DC /* Colors.swift */,
+				2C138BD828D9B77F001AD3DC /* Weather */,
 				2C54434128D9AA4E004F1410 /* Assets.xcassets */,
-				2C54434328D9AA4E004F1410 /* LaunchScreen.storyboard */,
 				2C54434628D9AA4E004F1410 /* Info.plist */,
 			);
 			path = WeatherInKrasnayaPolyana;
+			sourceTree = "<group>";
+		};
+		C183DEF59DDFD470F67C40B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAAE51EF3FC7FB8B4F38F652 /* Pods-WeatherInKrasnayaPolyana.debug.xcconfig */,
+				87188B82E5DF75A700515AC5 /* Pods-WeatherInKrasnayaPolyana.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C6222FB607F58DB47E6C0387 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E184EAC54AED2FFE3EAE7A6D /* Pods_WeatherInKrasnayaPolyana.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C54434928D9AA4E004F1410 /* Build configuration list for PBXNativeTarget "WeatherInKrasnayaPolyana" */;
 			buildPhases = (
+				4005A0ABFC9E52DC4ED8A6B1 /* [CP] Check Pods Manifest.lock */,
 				2C54433128D9AA4D004F1410 /* Sources */,
 				2C54433228D9AA4D004F1410 /* Frameworks */,
 				2C54433328D9AA4D004F1410 /* Resources */,
+				EDD92D398DFB903FE4C972EF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,7 +146,7 @@
 				};
 			};
 			buildConfigurationList = 2C54433028D9AA4D004F1410 /* Build configuration list for PBXProject "WeatherInKrasnayaPolyana" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -125,45 +168,71 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C54434528D9AA4E004F1410 /* LaunchScreen.storyboard in Resources */,
 				2C54434228D9AA4E004F1410 /* Assets.xcassets in Resources */,
-				2C54434028D9AA4D004F1410 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4005A0ABFC9E52DC4ED8A6B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeatherInKrasnayaPolyana-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDD92D398DFB903FE4C972EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeatherInKrasnayaPolyana/Pods-WeatherInKrasnayaPolyana-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeatherInKrasnayaPolyana/Pods-WeatherInKrasnayaPolyana-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeatherInKrasnayaPolyana/Pods-WeatherInKrasnayaPolyana-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2C54433128D9AA4D004F1410 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C138BD328D9B717001AD3DC /* WeatherService.swift in Sources */,
+				2C138BDC28D9B8A4001AD3DC /* Colors.swift in Sources */,
+				2C138BD528D9B73C001AD3DC /* WeatherData.swift in Sources */,
 				2C54433D28D9AA4D004F1410 /* ViewController.swift in Sources */,
 				2C54433928D9AA4D004F1410 /* AppDelegate.swift in Sources */,
+				2C138BD728D9B753001AD3DC /* WeatherModel.swift in Sources */,
+				2C138BDA28D9B801001AD3DC /* StretchyHeader.swift in Sources */,
 				2C54433B28D9AA4D004F1410 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		2C54433E28D9AA4D004F1410 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C54433F28D9AA4D004F1410 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2C54434328D9AA4E004F1410 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C54434428D9AA4E004F1410 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2C54434728D9AA4E004F1410 /* Debug */ = {
@@ -216,7 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +351,7 @@
 		};
 		2C54434A28D9AA4E004F1410 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAAE51EF3FC7FB8B4F38F652 /* Pods-WeatherInKrasnayaPolyana.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,11 +360,15 @@
 				DEVELOPMENT_TEAM = LB62AQUMSB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WeatherInKrasnayaPolyana/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Погода в Поляне";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,14 +376,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nurkovyan.weather.WeatherInKrasnayaPolyana;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2C54434B28D9AA4E004F1410 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87188B82E5DF75A700515AC5 /* Pods-WeatherInKrasnayaPolyana.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,11 +396,15 @@
 				DEVELOPMENT_TEAM = LB62AQUMSB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WeatherInKrasnayaPolyana/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Погода в Поляне";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +412,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nurkovyan.weather.WeatherInKrasnayaPolyana;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
